@@ -1,4 +1,4 @@
-# LabelEm
+# Automatic image Labelizer / Description
 
 A Streamlit application for image labeling and annotation.
 
@@ -25,3 +25,4 @@ streamlit run app.py
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
