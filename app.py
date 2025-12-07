@@ -89,7 +89,9 @@ with st.sidebar:
             st.session_state.image_labels = {}
             # Clear all text input states
             keys_to_remove = [
-                key for key in st.session_state.keys() if key.startswith("text_input_")
+                key
+                for key in st.session_state.keys()
+                if isinstance(key, str) and key.startswith("text_input_")
             ]
             for key in keys_to_remove:
                 del st.session_state[key]
